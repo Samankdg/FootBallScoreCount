@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorButton</item>
+    </style>
+
+    <style name="TeamNameTextView" parent="AppTheme">
+        <!--  -->
+        <item name="android:textSize">@dimen/team_font_size</item>
+        <item name="android:textColor">@color/teamFontColor</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+
+    <style name="VerticalDivider">
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_width">@dimen/dividers_thickness</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>
